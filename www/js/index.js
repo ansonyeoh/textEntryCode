@@ -11,7 +11,7 @@ function generate(){
     var text = random();
     window.alert(text);
     
-    if(text){
+    if(text ==true){
         navigator.notification.beep(1);
         navigator.vibrate(2000);
     }else {
