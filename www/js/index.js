@@ -10,14 +10,14 @@ $(document).on("pagecreate","#pageone",function(){
 function generate(){
     var text = random();
     window.alert(text);
-    
-    if(text ==true){
-        navigator.notification.beep(1);
-        navigator.vibrate(2000);
-    }else {
-        navigator.notification.beep(2);
-        navigator.vibrate(2000);
-    }
+    navigator.notification.beep(1);
+//    if(text ==true){
+//        navigator.notification.beep(1);
+//        navigator.vibrate(2000);
+//    }else {
+//        navigator.notification.beep(2);
+//        navigator.vibrate(2000);
+//    }
 }
 
 function random() {
